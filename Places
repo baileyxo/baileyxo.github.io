@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Bailey</title>
+<style>
+
+body {
+	background-color:#ffe6e6;
+	text-align:center;
+	font-family:oldtown, fantasy;
+	font-size:22px;
+}
+
+div {
+	width: 50%;
+	margin: auto;
+
+}
+.place {
+	font-weight: bold;
+}
+
+h1 {
+	color:#00e6e6;
+	font-size: 56px;
+}
+
+
+</style>
+
+
+
+
+</head>
+
+<body>
+	<nav>
+		<a href="home.html">♥Home</a> ♥
+		<a href="contact.html"> Contact</a> ♥
+		<a href="pricing page.html"> Pricing</a> ♥
+	</nav>
+	
+	
+	<h1> Meet the Owner: </h1>
+	<h3> Bailey Mann </h3>
+	<div>
+		 
+		<p> My name is Bailey Mann, and I have been visiting and renting properties in Old Orchard ever since I was born. My family and I stayed at a local campground, Wagon Wheel for many summers, and eventually decided to invest in a rental property of our own. I encourage you to visit Old Orchard, for I assure you will not be disapointed! I pride myself on being an honest, friendly and respectful landlord.. I will have many suggestions for you to help enjoy your vacation, but I will also allow you your space. This is one of my most favorite places, and I hope you and your family and loved ones enjoy it as much as I do!<br> <br> 
+
+	<img src="imgs/beach.jpg" height="400" width="500" alt="oob beach"/> <br> <br>
+
+		Here are a few of my favorite places:  </p>
+		<li> <div class="place">The Brunswick - </div class> Restaurant and Bar. Great live bands!</li>
+		<li><div class="place"> The Soda Fountain - </div class> Best ice cream in the area! With a fun gift shop! </li>
+		<li> <div class="place"> Josephs By The Sea - </div class> Wonderful fine dining and outdoor patio </li>
+		<li> <div class="place"> Lisa's Pizza - </div class> Great pier food and fun downtown vibe! </li>
+		<li> <div class="place"> Pier Patio Pub - </div class> End of pier bar, club atmosphere </li>
+		<li> <div class="place"> Beachology - </div class> Favorite gift shop. Great prices!
+		</div>
+		<br>
+		<br>
+		If interested in renting with us, please email with your dates and I will get back to you on pricing!
+		<a href="mailto:baileyxo@live.com">Send Me Mail</a>
+	
+	<h1>  🐟  🐟  🐟 </h1>
+	</div>
+</body>
+</html>

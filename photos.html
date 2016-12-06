@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="w3.css">
+
+<style>
+
+body {
+	background-color:#ffe6e6;
+	text-align:center;
+	font-family:oldtown, fantasy;
+	font-size:22px;
+}
+
+div {
+	width: 50%;
+	margin: auto;
+}
+
+nav {
+	font-size:24px;
+}
+
+h1 {
+	color:#00e6e6;
+	font-size: 56px;
+}
+
+</style>
+</head>
+<body>
+
+	<nav>
+		<a href="index.html"> Home</a> ♥
+		<a href="contact.html"> Contact</a> ♥
+		<a href="pricingpage.html"> Pricing</a> ♥
+		<a href="things.html"> Things To Do</a> ♥
+		<a href="photos.html"> Photos</a> ♥
+		<a href="review.html"> Reviews</a> 
+	</nav>
+
+<h1 class="w3-center">Take a look at the Property!</h1>
+
+<div class="w3-content w3-display-container">
+  <img class="mySlides" src="imgs/kitchen.jpg" alt="kitchen" style="width:100%">
+  <img class="mySlides" src="imgs/kitchen2.jpg" alt="kitchen2" style="width:100%">
+  <img class="mySlides" src="imgs/diningroom.jpg" alt="dining" style="width:100%">
+  <img class="mySlides" src="imgs/livingroom.jpg" alt="living" style="width:100%">
+  <img class="mySlides" src="imgs/bathroom.jpg" alt="bathroom" style="width:100%">
+  <img class="mySlides" src="imgs/laundry.jpg" alt="laundry" style="width:100%">
+  <img class="mySlides" src="imgs/master.jpg" alt="master" style="width:100%">
+  <img class="mySlides" src="imgs/bedroom2.jpg" alt="bedroom" style="width:100%">
+  <img class="mySlides" src="imgs/loft.jpg" alt="loft" style="width:100%">
+  <img class="mySlides" src="imgs/bedroom3.jpg" alt="bedroom2" style="width:100%">
+  <img class="mySlides" src="imgs/deck.jpg" alt="deck" style="width:100%">
+
+  <a class="w3-btn-floating w3-display-left" onclick="plusDivs(-1)">&#10094;</a>
+  <a class="w3-btn-floating w3-display-right" onclick="plusDivs(1)">&#10095;</a>
+</div>
+
+	<br>
+		If interested in renting with us, please email with your dates and I will get back to you on pricing! Or check out our Pricing Page!
+		<a href="mailto:baileyxo@live.com">Send Me Mail</a>
+	
+	<h1>  🐟  🐟  🐟 </h1>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+</body>
+</html>
+
+
+
+<!-- 
+</head>
+
+<body>	
+	<br>
+		If interested in renting with us, please email with your dates and I will get back to you on pricing! Or check out our Pricing Page!
+		<a href="mailto:baileyxo@live.com">Send Me Mail</a>
+	
+	<h1>  🐟  🐟  🐟 </h1>
+
+</body>
+</html>
+ -->
